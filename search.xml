@@ -4,19 +4,13 @@
   
     
     <entry>
-      <title>公式渲染演示</title>
-      <link href="/2025/11/14/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2025/11/14/%E6%B5%8B%E8%AF%95/</url>
+      <title>1</title>
+      <link href="/2025/11/14/1/"/>
+      <url>/2025/11/14/1/</url>
       
-        <content type="html"><![CDATA[<h1 id="Hexo-Butterfly-公式渲染示例"><a href="#Hexo-Butterfly-公式渲染示例" class="headerlink" title="Hexo + Butterfly 公式渲染示例"></a>Hexo + Butterfly 公式渲染示例</h1><p>本文用于测试 Hexo Butterfly 渲染公式功能。</p><h2 id="1-行内公式（inline）"><a href="#1-行内公式（inline）" class="headerlink" title="1. 行内公式（inline）"></a>1. 行内公式（inline）</h2><p>例如爱因斯坦公式：$E = mc^2$，或者二次方程公式：$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$。</p><h2 id="2-块级公式（display）"><a href="#2-块级公式（display）" class="headerlink" title="2. 块级公式（display）"></a>2. 块级公式（display）</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\int_0^\infty e^&#123;-x^2&#125; dx = \frac&#123;\sqrt&#123;\pi&#125;&#125;&#123;2&#125;</span><br></pre></td></tr></table></figure><p>通过网盘分享的文件：博客文件<br>链接: <a href="https://pan.baidu.com/s/1PvjESh0PFkJH-NOfbgMm7g?pwd=1234">https://pan.baidu.com/s/1PvjESh0PFkJH-NOfbgMm7g?pwd=1234</a> 提取码: 1234<br>—来自百度网盘超级会员v4的分享</p>]]></content>
+        <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[点击查看我的简历](/files/数字信号处理.pdf)</span><br></pre></td></tr></table></figure>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> math </tag>
-            
-        </tags>
       
     </entry>
     
@@ -28,19 +22,6 @@
       <url>/2025/11/14/%E6%95%B0%E5%AD%97%E4%BF%A1%E5%8F%B7%E5%A4%84%E7%90%86/</url>
       
         <content type="html"><![CDATA[<h1 id="数字信号处理"><a href="#数字信号处理" class="headerlink" title="数字信号处理"></a>数字信号处理</h1><h2 id="一、离散时间傅里叶变换（DTFT）"><a href="#一、离散时间傅里叶变换（DTFT）" class="headerlink" title="一、离散时间傅里叶变换（DTFT）"></a>一、离散时间傅里叶变换（DTFT）</h2><h3 id="1-DTFT的定义"><a href="#1-DTFT的定义" class="headerlink" title="1.DTFT的定义"></a>1.DTFT的定义</h3><p>$X(e^{jw})=\sum^{+\infty}_{n=-\infty}x[n]e^{-jwn}$</p><h3 id="2-一般序列的分量"><a href="#2-一般序列的分量" class="headerlink" title="2.一般序列的分量"></a>2.一般序列的分量</h3><ul><li><p>共轭偶对称分量：</p><p>$x_e[n]=\frac{1}{2}(x[n]+x^{*}[-n])$</p><p>$x_{e}[n]=x_{e}^{*}[-n]$             实部偶对称，虚部奇对称</p></li><li><p>共轭奇对称分量：</p><p>$x_o[n]=\frac{1}{2}(x[n]-x^{*}[-n])$</p><p>$x_o[n]=-x_{o}^{*}[-n]$             实部奇对称，虚部偶对称</p></li></ul><p><strong>任何序列都可以写为一个共轭偶对称和一个共轭奇对称的和：$x[n]=x_e[n]+x_o[n]$</strong></p><h3 id="3-DTFT的性质："><a href="#3-DTFT的性质：" class="headerlink" title="3.DTFT的性质："></a>3.DTFT的性质：</h3><p>①. $x^{<em>}[n]{\leftrightarrow}X^{</em>}(e^{-jw})$</p><p>②. $x^{<em>}[-n]{\leftrightarrow}X^{</em>}(e^{jw})$</p><p>③. $Re{{x[n]}}{\leftrightarrow}X_e(e^{jw})$</p><p>④. $jIm{x[n]}{\leftrightarrow}X_o({e^{jw}})$</p><p>⑤. $x_e[n]{\leftrightarrow}Re{X(e^{jw})}$</p><p>⑥. $x_o[n]{\leftrightarrow}jIm{X(e^{jw})}$</p><p>推论：</p><p>​    $x[n]$是实信号</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2025/11/12/hello-world/"/>
-      <url>/2025/11/12/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       
